@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const prenom = "victor";
+        const nom = "hugo";
+        // à partir de ces deux variables on veux obtenir le texte "victor hugo"
+        // On veux CONCATENER :
+
+        const auteurFrancais = prenom + " " + nom ; 
+        // on met des guillemets vide avec un espace dedans pour qu'il y ait un espace en tre le nom et le prenom 
+
+        // autre maniere de concatener : 
+        const auteurFrancais2 = `${prenom} ${nom}`;
+
+        const montant = 30 ; 
+        const devise = "euros" ;
+
+        const prixaAfficher = montant + " " + devise ;
+        const prixaAfficher1 = `${montant}${montant}`;
+
+        console.log(prixaAfficher) ; // fonction qui permet de debugger 
+
+
+    </script>
+    
+</body>
+</html>
